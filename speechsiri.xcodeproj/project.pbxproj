@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62CE5E941E4B2EDE000C79DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5E931E4B2EDE000C79DA /* AppDelegate.swift */; };
+		62CE5E961E4B2EDF000C79DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5E951E4B2EDF000C79DA /* ViewController.swift */; };
+		62CE5E991E4B2EE0000C79DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5E971E4B2EE0000C79DA /* Main.storyboard */; };
+		62CE5E9C1E4B2EE3000C79DA /* speechsiri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5E9A1E4B2EE2000C79DA /* speechsiri.xcdatamodeld */; };
+		62CE5E9E1E4B2EE5000C79DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5E9D1E4B2EE5000C79DA /* Assets.xcassets */; };
+		62CE5EA11E4B2EE6000C79DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5E9F1E4B2EE6000C79DA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62CE5E901E4B2EDE000C79DA /* speechsiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speechsiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CE5E931E4B2EDE000C79DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62CE5E951E4B2EDF000C79DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62CE5E981E4B2EE0000C79DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62CE5E9B1E4B2EE3000C79DA /* speechsiri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = speechsiri.xcdatamodel; sourceTree = "<group>"; };
+		62CE5E9D1E4B2EE5000C79DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62CE5EA01E4B2EE6000C79DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62CE5EA21E4B2EE7000C79DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62CE5E8D1E4B2EDE000C79DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CE5E871E4B2EDC000C79DA = {
+			isa = PBXGroup;
+			children = (
+				62CE5E921E4B2EDE000C79DA /* speechsiri */,
+				62CE5E911E4B2EDE000C79DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62CE5E911E4B2EDE000C79DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5E901E4B2EDE000C79DA /* speechsiri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62CE5E921E4B2EDE000C79DA /* speechsiri */ = {
+			isa = PBXGroup;
+			children = (
+				62CE5E931E4B2EDE000C79DA /* AppDelegate.swift */,
+				62CE5E951E4B2EDF000C79DA /* ViewController.swift */,
+				62CE5E971E4B2EE0000C79DA /* Main.storyboard */,
+				62CE5E9D1E4B2EE5000C79DA /* Assets.xcassets */,
+				62CE5E9F1E4B2EE6000C79DA /* LaunchScreen.storyboard */,
+				62CE5EA21E4B2EE7000C79DA /* Info.plist */,
+				62CE5E9A1E4B2EE2000C79DA /* speechsiri.xcdatamodeld */,
+			);
+			path = speechsiri;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62CE5E8F1E4B2EDE000C79DA /* speechsiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CE5EA51E4B2EE8000C79DA /* Build configuration list for PBXNativeTarget "speechsiri" */;
+			buildPhases = (
+				62CE5E8C1E4B2EDE000C79DA /* Sources */,
+				62CE5E8D1E4B2EDE000C79DA /* Frameworks */,
+				62CE5E8E1E4B2EDE000C79DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speechsiri;
+			productName = speechsiri;
+			productReference = 62CE5E901E4B2EDE000C79DA /* speechsiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62CE5E881E4B2EDD000C79DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PossibillionTech;
+				TargetAttributes = {
+					62CE5E8F1E4B2EDE000C79DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T6KEGPHDRB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62CE5E8B1E4B2EDD000C79DA /* Build configuration list for PBXProject "speechsiri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62CE5E871E4B2EDC000C79DA;
+			productRefGroup = 62CE5E911E4B2EDE000C79DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62CE5E8F1E4B2EDE000C79DA /* speechsiri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62CE5E8E1E4B2EDE000C79DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5EA11E4B2EE6000C79DA /* LaunchScreen.storyboard in Resources */,
+				62CE5E9E1E4B2EE5000C79DA /* Assets.xcassets in Resources */,
+				62CE5E991E4B2EE0000C79DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62CE5E8C1E4B2EDE000C79DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CE5E9C1E4B2EE3000C79DA /* speechsiri.xcdatamodeld in Sources */,
+				62CE5E961E4B2EDF000C79DA /* ViewController.swift in Sources */,
+				62CE5E941E4B2EDE000C79DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62CE5E971E4B2EE0000C79DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CE5E981E4B2EE0000C79DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62CE5E9F1E4B2EE6000C79DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CE5EA01E4B2EE6000C79DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62CE5EA31E4B2EE8000C79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62CE5EA41E4B2EE8000C79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62CE5EA61E4B2EE8000C79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6KEGPHDRB;
+				INFOPLIST_FILE = speechsiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.possibilliontech.test.speechsiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62CE5EA71E4B2EE8000C79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6KEGPHDRB;
+				INFOPLIST_FILE = speechsiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.possibilliontech.test.speechsiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CE5E8B1E4B2EDD000C79DA /* Build configuration list for PBXProject "speechsiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CE5EA31E4B2EE8000C79DA /* Debug */,
+				62CE5EA41E4B2EE8000C79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CE5EA51E4B2EE8000C79DA /* Build configuration list for PBXNativeTarget "speechsiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CE5EA61E4B2EE8000C79DA /* Debug */,
+				62CE5EA71E4B2EE8000C79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62CE5E9A1E4B2EE2000C79DA /* speechsiri.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62CE5E9B1E4B2EE3000C79DA /* speechsiri.xcdatamodel */,
+			);
+			currentVersion = 62CE5E9B1E4B2EE3000C79DA /* speechsiri.xcdatamodel */;
+			path = speechsiri.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62CE5E881E4B2EDD000C79DA /* Project object */;
+}
