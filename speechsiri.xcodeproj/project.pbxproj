@@ -13,6 +13,7 @@
 		62CE5E9C1E4B2EE3000C79DA /* speechsiri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5E9A1E4B2EE2000C79DA /* speechsiri.xcdatamodeld */; };
 		62CE5E9E1E4B2EE5000C79DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5E9D1E4B2EE5000C79DA /* Assets.xcassets */; };
 		62CE5EA11E4B2EE6000C79DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5E9F1E4B2EE6000C79DA /* LaunchScreen.storyboard */; };
+		62DD1F711E4C8C74009F3F04 /* 1457956036_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 62DD1F701E4C8C74009F3F04 /* 1457956036_sms.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		62CE5E9D1E4B2EE5000C79DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62CE5EA01E4B2EE6000C79DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62CE5EA21E4B2EE7000C79DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CE5EA81E4B3034000C79DA /* speechsiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speechsiri.entitlements; sourceTree = "<group>"; };
+		62DD1F701E4C8C74009F3F04 /* 1457956036_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1457956036_sms.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		62CE5E921E4B2EDE000C79DA /* speechsiri */ = {
 			isa = PBXGroup;
 			children = (
+				62CE5EA81E4B3034000C79DA /* speechsiri.entitlements */,
+				62DD1F701E4C8C74009F3F04 /* 1457956036_sms.png */,
 				62CE5E931E4B2EDE000C79DA /* AppDelegate.swift */,
 				62CE5E951E4B2EDF000C79DA /* ViewController.swift */,
 				62CE5E971E4B2EE0000C79DA /* Main.storyboard */,
@@ -101,6 +106,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T6KEGPHDRB;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62CE5EA11E4B2EE6000C79DA /* LaunchScreen.storyboard in Resources */,
+				62DD1F711E4C8C74009F3F04 /* 1457956036_sms.png in Resources */,
 				62CE5E9E1E4B2EE5000C79DA /* Assets.xcassets in Resources */,
 				62CE5E991E4B2EE0000C79DA /* Main.storyboard in Resources */,
 			);
@@ -265,8 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = speechsiri/speechsiri.entitlements;
 				DEVELOPMENT_TEAM = T6KEGPHDRB;
 				INFOPLIST_FILE = speechsiri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.possibilliontech.test.speechsiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,8 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = speechsiri/speechsiri.entitlements;
 				DEVELOPMENT_TEAM = T6KEGPHDRB;
 				INFOPLIST_FILE = speechsiri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.possibilliontech.test.speechsiri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +321,7 @@
 				62CE5EA71E4B2EE8000C79DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
